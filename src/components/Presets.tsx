@@ -1,5 +1,5 @@
 interface Props {
-  onPresetClick: (event: React.MouseEventHandler<HTMLButtonElement>) => void
+  onPresetClick: (event: any) => void
 }
 
 export const Presets = ({ onPresetClick }: Props) => (
